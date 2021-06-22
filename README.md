@@ -52,8 +52,10 @@ const consumerSecret = 'your-consumer-secret';
 const tokenId = 'token-id';
 const tokenSecret = 'token-secret';
 const account = 'account Id';
+const algorithm = 'sha256';
+const signatureMethod = 'HMAC-SHA256';
 
-const oauth = new NetSuiteOauth(url, method, consumerKey, consumerSecret, tokenId, tokenSecret, account);
+const oauth = new NetSuiteOauth(url, method, consumerKey, consumerSecret, tokenId, tokenSecret, account, algorithm, signatureMethod);
 const data = {key: 'value'};
 
 oauth.post(data).then(response => console.log(response));

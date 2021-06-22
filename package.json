@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/husseinmkwizu/netsuite-tba-oauth.git"
+    "url": "git+https://github.com/AZAMPAY-LTD/netsuite-tba-oauth.git"
   },
   "keywords": [
     "tba",
@@ -22,9 +22,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/husseinmkwizu/netsuite-tba-oauth/issues"
+    "url": "https://github.com/AZAMPAY-LTD/netsuite-tba-oauth/issues"
   },
-  "homepage": "https://github.com/husseinmkwizu/netsuite-tba-oauth#readme",
+  "homepage": "https://github.com/AZAMPAY-LTD/netsuite-tba-oauth#readme",
   "dependencies": {
     "oauth-1.0a": "^2.2.4",
     "request": "^2.88.0"
